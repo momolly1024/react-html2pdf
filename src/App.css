@@ -1,0 +1,42 @@
+.App {
+    width: 50%;
+    margin: auto;
+}
+.detailContainer {
+    margin: 10px auto;
+    border: 1px black solid;
+    padding: 20px;
+}
+.title {
+    display: flex;
+    height: 60px;
+
+    /* width: 500px; */
+}
+.left {
+    flex-grow: 1;
+}
+.center {
+    flex-grow: 1;
+}
+
+.right {
+    flex-grow: 1;
+}
+
+.details {
+    border: 1px black solid;
+    text-align: center;
+    width: 95%;
+    height: 100%;
+}
+table {
+    margin: 0 auto;
+}
+.date {
+    margin: 12px 0 8px 0;
+}
+
+.textNoMargin {
+    margin: 0;
+}
