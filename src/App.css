@@ -3,7 +3,7 @@
 }
 
 .detailContainer {
-    width: 720px;
+    width: 756px;
     /* margin: 10px auto; */
     border: 1px rgb(228, 228, 228) solid;
     padding: 10px;
@@ -20,10 +20,13 @@
 }
 .center {
     flex-grow: 1;
+    text-align: center;
 }
 
 .right {
     flex-grow: 1;
+    margin-right: 0;
+    text-align: right;
 }
 
 .details {
