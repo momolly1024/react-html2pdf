@@ -1,9 +1,10 @@
-.exportBilling {
-    flex: 4;
+.app {
+    text-align: center;
+    margin: 0 auto;
+    width: 756px;
 }
 
 .detailContainer {
-    width: 756px;
     /* margin: 10px auto; */
     border: 1px rgb(228, 228, 228) solid;
     padding: 10px;
@@ -11,38 +12,9 @@
 }
 .title {
     display: flex;
-    height: 60px;
+}
 
-    /* width: 500px; */
-}
-.left {
-    flex-grow: 1;
-}
 .center {
     flex-grow: 1;
     text-align: center;
-}
-
-.right {
-    flex-grow: 1;
-    margin-right: 0;
-    text-align: right;
-}
-
-.details {
-    border: 1px black solid;
-    text-align: center;
-
-    height: 100%;
-    margin: 10px 0;
-}
-table {
-    margin: 0 auto;
-}
-.date {
-    margin-top: 12px;
-}
-
-.textNoMargin {
-    margin: 0;
 }
